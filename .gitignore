@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# Datasets, model weights, and local experiment output
+data/raw/
+data/interim/
+data/processed/
+artifacts/
+models/
+mlruns/
+wandb/
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.safetensors
+*.onnx
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
